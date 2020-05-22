@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/lel"/>
+
+    <TextView
+        android:id="@+id/tvAboutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myPict"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:text="Laeli Oktami"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvAboutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAboutName"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:text="laelioktami@gmail.com"
+        android:gravity="center" />
+
+</RelativeLayout>
